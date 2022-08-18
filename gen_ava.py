@@ -4,7 +4,7 @@ import time
 from os import mkdir
 
 try:
-    mkdir("avas")https://github.com/CryptoBender25/generate_avatar/blob/main/gen_ava.py
+    mkdir("avas")
 except:
     pass
 def get_random_avatar_from_web():
