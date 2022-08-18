@@ -13,7 +13,7 @@ def get_random_avatar_from_web():
         # print(b64encode(r.content))
         return(r.content)
 
-i = input("Сколько ав генерировать")
+i = int(input("Сколько ав генерировать "))
 for i in range(1, i+1):
     with open(f"avas/image{i}.png", "wb") as f:
         f.write(get_random_avatar_from_web())
